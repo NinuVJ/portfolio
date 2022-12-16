@@ -1,0 +1,96 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+   
+}
+.container {
+    position: relative;
+    text-align: center;
+   
+  }
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h2{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #ffffff;
+  }
+  h3,h1{
+    color: #ffffff;
+  }
+  span,h5,a{
+    color:#f2aa4d;
+  }
+  h6{
+    font-weight: bold;
+    text-align: start;
+  }
+  .btn{
+    background:#f2aa4d;
+    border-radius: 40px;
+  }
+  p{
+    display: block; 
+  }
+  #icons{
+    color: #f2aa4d;
+  }
+#about-div{
+  background: #000000;
+  color: #ffffff;
+}
+#contact-section{
+  color:#ffffff
+}
+#resume-card,#service-card{
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f2aa4d;
+}
+
+#container-overlay:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
